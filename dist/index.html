@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/styles/main.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+        </style>
+    <title>Bookshop</title>
+<script defer src="main.js"></script></head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <p>Bookshop</p>
+            </div>
+            <nav class="header__nav">
+                <a class="active" href="#">BOOKS</a>
+                <a href="#">AUDIOBOOKS</a>
+                <a href="#">STATIONERY & GIFTS</a>
+                <a href="#">BLOG</a>
+            </nav>
+            <div class="header__icons">
+                <a href="#" class="icon user"><img src="./assets/images/user.svg" alt="User Icon"></a>
+                <a href="#" class="icon search"><img src="./assets/images/search.svg" alt="Search Icon"></a>
+                <a href="#" class="icon cart">
+                    <img src="./assets/images/shop bag.svg" alt="Cart Icon">
+                    <span class="cart-badge">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="slider">
+            <div class="slider__container">
+            </div>
+            <div class="slider__dots"></div>
+            <div class="banner-container">
+                <div class="banner-one">
+                    <a href="#"><img src="./assets/images/promo 1.png" alt="promo"></a>
+                </div>
+                <div class="banner-two">
+                    <a href="#"><img src="./assets/images/promo 2.png" alt="promo"></a>
+                </div>
+            </div>
+        </section>
+        <section class="categories-books">
+            <aside class="categories">
+                <ul class="categories__list">
+                    <li><a href="#" class="categories__item active" data-category="Architecture">Architecture</a></li>
+                    <li><a href="#" class="categories__item" data-category="Art & Fashion">Art & Fashion</a></li>
+                    <li><a href="#" class="categories__item" data-category="Biography">Biography</a></li>
+                    <li><a href="#" class="categories__item" data-category="Business">Business</a></li>
+                    <li><a href="#" class="categories__item" data-category="Crafts & Hobbies">Crafts & Hobbies</a></li>
+                    <li><a href="#" class="categories__item" data-category="Drama">Drama</a></li>
+                    <li><a href="#" class="categories__item" data-category="Fiction">Fiction</a></li>
+                    <li><a href="#" class="categories__item" data-category="Food & Drink">Food & Drink</a></li>
+                    <li><a href="#" class="categories__item" data-category="Health & Wellbeing">Health & Wellbeing</a></li>
+                    <li><a href="#" class="categories__item" data-category="History & Politics">History & Politics</a></li>
+                    <li><a href="#" class="categories__item" data-category="Humor">Humor</a></li>
+                    <li><a href="#" class="categories__item" data-category="Poetry">Poetry</a></li>
+                    <li><a href="#" class="categories__item" data-category="Psychology">Psychology</a></li>
+                    <li><a href="#" class="categories__item" data-category="Science">Science</a></li>
+                    <li><a href="#" class="categories__item" data-category="Technology">Technology</a></li>
+                    <li><a href="#" class="categories__item" data-category="Travel & Maps">Travel & Maps</a></li>
+                </ul>
+            </aside>
+            <div class="books">
+                <div class="books__list">
+                </div>
+                <button class="books__load-more">LOAD MORE</button>
+            </div>
+        </section>
+    </main>
+    <script type="module" src="../dist/main.js"></script>
+</body>
+</html>
